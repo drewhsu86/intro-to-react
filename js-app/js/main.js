@@ -39,7 +39,7 @@ loginForm.addEventListener('submit', e => {
 
     // we can send AJAX request to a server with our login data 
     // fetch(url, options)
-    const response = fetch('http://localhost:3000/testpost', {
+    fetch('http://localhost:3000/testpost', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

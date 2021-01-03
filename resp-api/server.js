@@ -18,7 +18,7 @@ app.post('/testpost', (req, res) => {
 
         res.status(200).json(
             {
-                message: 'Successfully recieved POST request.',
+                message: 'Successfully received POST request.',
                 
                 reqBody: req.body
             }
